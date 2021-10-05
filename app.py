@@ -5,7 +5,7 @@ from flask_socketio import SocketIO, emit
 import numpy as np
 import requests
 from datetime import datetime
-from fbprophet import Prophet
+from prophet import Prophet
 import pandas as pd
 from helper_v4 import forecastr,determine_timeframe,get_summary_stats,validate_model,preprocessing
 import logging
